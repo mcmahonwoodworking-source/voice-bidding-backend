@@ -9,7 +9,7 @@ class CreateJobIn(BaseModel):
     address: str
     job_type: JobType
 
-class StepHoursIn(BaseModel):
+class StepHoursIn(BaseModel):h
     step_key: str
     hours: float
     include: bool = True
